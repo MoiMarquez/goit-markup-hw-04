@@ -1,0 +1,127 @@
+
+
+/*header*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80PX;
+
+    padding-left: 17%;
+
+
+    /*border: 1px solid #ECECEC;*/
+
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    gap: 10%;
+}
+
+/* WebStudio */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: var(--highlight-color);
+}
+
+/*Ul */
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    gap: 40px;
+}
+
+/* Links */
+.upper-list {
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--black-color);
+}
+
+
+.upper-list>a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.upper-list>a:hover {
+    text-underline-offset: none;
+    color: var(--highlight-color);
+}
+
+aside.contact-ribbon {
+    display: flex;
+    align-items: center;
+    gap: 40PX;
+    padding-right: 17%;
+}
+
+/* info@devstudio.com */
+.ribbon-contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--grey-color);
+    text-decoration: none;
+}
+
+.ribbon-contact::before{
+    content: url("../images/envelope.jpg");
+    display: inline;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+
+}
+
+.envelope {    
+}
+
+.ribbon-contact:hover {
+    color: var(--highlight-color);
+}
+
+/* +52 55 5529 6000 */
+
+.ribbon-contact2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--grey-color);
+    text-decoration: none;
+}
+
+.ribbon-contact2::before{
+content: url("../images/phone.jpg");
+display: inline;
+margin-right: 10px;
+margin-top: -2px;
+}
+
+.phone {
+    position: absolute;
+    left: 79%;
+    top: 32px;
+}
+
+.ribbon-contact2:hover {
+    color: var(--highlight-color);
+}
