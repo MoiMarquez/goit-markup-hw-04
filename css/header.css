@@ -2,22 +2,24 @@
 
 /*header*/
 .header-container {
+    /* 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+      */
+}
+
+.box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80PX;
-
-    padding-left: 17%;
-
-
-    /*border: 1px solid #ECECEC;*/
+    margin: 0 var(--outer-margin) 0 var(--outer-margin); 
 
 }
 
-header nav {
-    align-items: center;
+.header-box{
     display: flex;
-    gap: 10%;
+    align-items: center;
 }
 
 /* WebStudio */
@@ -38,8 +40,8 @@ header nav {
 .nav-links {
     display: flex;
     list-style: none;
-    padding: 0px;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 5px 80px; 
 }
 
 /* Links */
@@ -64,8 +66,9 @@ header nav {
 aside.contact-ribbon {
     display: flex;
     align-items: center;
-    gap: 40PX;
-    padding-right: 17%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10PX;
 }
 
 /* info@devstudio.com */
@@ -89,8 +92,6 @@ aside.contact-ribbon {
 
 }
 
-.envelope {    
-}
 
 .ribbon-contact:hover {
     color: var(--highlight-color);

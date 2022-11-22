@@ -1,32 +1,34 @@
 
-
-
 /*
 *
-*FOOTERS
+*FOOTER
 *
 */
 
 .bg-color {
-    display: flex;
-    height: 252px;
     margin: 0px;
     padding-top: 60px;
-    padding-left: 17%;
-
 
     background: var(--bg-color);
 }
 
-.bg-color-porfolio {
-    height: 252px;
-    display: flex;
+.bg-color-portfolio {
     margin: 0px;
     padding-top: 60px;
-    padding-left: 17%;
-
+    
     background: var(--bg-color);
 }
+
+.foo-box{
+    display: flex;
+    margin: 0 var(--outer-margin) 0 var(--outer-margin);
+}
+
+.foo{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .logo2 {
     padding-bottom: 9px;
