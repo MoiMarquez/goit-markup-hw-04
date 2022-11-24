@@ -88,8 +88,8 @@ section.main-articles{
     margin: 0 var(--outer-margin) 0 var(--outer-margin);
     padding: var(--inner-padding);
     /*
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin: 0px;
     */
 }
@@ -98,13 +98,6 @@ section.main-articles{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin: 0;
-        /*
-        gap: 10px;
-        align-items: center;
-         */
-        /*
-        */
     }
 
     .article-list{
@@ -158,7 +151,6 @@ section.main-articles{
         padding: 50px 0px 94px 0px;
         gap: 24px;
         margin: 0;
-
 }
 
 .subtitle2{
@@ -175,6 +167,9 @@ section.main-articles{
 
 
 .team-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: #F5F4FA;
     padding: var(--inner-padding);
     margin: 0px;
@@ -183,29 +178,22 @@ section.main-articles{
 
 .team-section{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 var(--outer-margin) 0 var(--outer-margin);    
+    margin: 0 var(--outer-margin) 0 var(--outer-margin);
     border-radius: 0px;
-
 }
 
 .team-box{
     display: flex;
-    list-style: none;
+    list-style: none;    
         width: 100%;
-        align-items: center;
         justify-content: space-between;
         padding-top: 50px;
         padding-left: 0;
-        margin: 0;
-
 }
 
 .team-list{
     background-color: var(--white-color);
     height: 368px;
-    z-index: 1;
 
     /*CARD SHADOW*/
 
