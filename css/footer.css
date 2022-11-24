@@ -94,7 +94,6 @@
 .social-box {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
     gap: 10px;

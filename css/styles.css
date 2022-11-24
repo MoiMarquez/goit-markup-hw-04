@@ -13,6 +13,7 @@
     --bg-color:#2F303A;
     --grey-bg: #F5F4FA;
     --outer-margin: calc((100% - 1200px) / 2);
+    --inner-padding: 94px 0;
 }
 
 body {
@@ -85,7 +86,7 @@ h1.solutions{
 /* Main articles */
 section.main-articles{
     margin: 0 var(--outer-margin) 0 var(--outer-margin);
-    padding-top: 95px;
+    padding: var(--inner-padding);
     /*
     align-items: center;
     justify-content: space-between;
@@ -96,9 +97,7 @@ section.main-articles{
 .article-ulist{
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0;
     margin: 0;
         /*
         gap: 10px;
@@ -133,7 +132,6 @@ section.main-articles{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 94px;
     margin: 0;
 
         font-style: normal;
@@ -151,16 +149,11 @@ section.main-articles{
     align-items: center;
     justify-content: center;
     margin: 0 var(--outer-margin) 0 var(--outer-margin);
-    /* 
-    padding-top: 95px;
-     */
-
 }
 
 .pics-box{
         display: flex;
         list-style: none;
-        flex-wrap: wrap;
         justify-content: space-between;
         padding: 50px 0px 94px 0px;
         gap: 24px;
@@ -183,7 +176,7 @@ section.main-articles{
 
 .team-container{
     background-color: #F5F4FA;
-    padding-top: 94px;
+    padding: var(--inner-padding);
     margin: 0px;
 }
 
@@ -200,12 +193,10 @@ section.main-articles{
 .team-box{
     display: flex;
     list-style: none;
-        flex-wrap: wrap;
         width: 100%;
         align-items: center;
         justify-content: space-between;
         padding-top: 50px;
-        padding-bottom: 94px;
         padding-left: 0;
         margin: 0;
 
