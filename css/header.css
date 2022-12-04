@@ -1,25 +1,18 @@
 
 
 /*header*/
-.header-container {
-    /* 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;   
-      */
-}
-
-.box{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 var(--outer-margin) 0 var(--outer-margin); 
-
+    padding: 24px 0;
 }
 
-.header-box{
+header>nav {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 80px;
 }
 
 /* WebStudio */
@@ -36,49 +29,49 @@
     color: var(--highlight-color);
 }
 
-/*Ul */
+/* Ul */
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 5px 80px; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px 80px;
+
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 }
 
-/* Links */
-.upper-list {
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    color: var(--black-color);
+li>a{
+    color: var(--grey-color);
 }
 
-
-.upper-list>a {
-    text-decoration: none;
-    color: var(--black-color);
-}
-
-.upper-list>a:hover {
-    text-underline-offset: none;
+li>a:hover {
     color: var(--highlight-color);
 }
 
 aside.contact-ribbon {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
-    gap: 10PX;
+    gap: 10px;
 }
 
 /* info@devstudio.com */
 .ribbon-contact {
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: var(--grey-color);
-    text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: var(--grey-color);
+        text-decoration: none;
 }
 
 .ribbon-contact::before{
@@ -89,7 +82,6 @@ aside.contact-ribbon {
     margin-right: 10px;
 
 }
-
 
 .ribbon-contact:hover {
     color: var(--highlight-color);

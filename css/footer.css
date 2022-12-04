@@ -5,40 +5,22 @@
 *
 */
 
-.bg-color {
-    margin: 0px;
-    padding-top: 60px;
-
+footer.footerbg{
     background: var(--bg-color);
 }
 
-.bg-color-portfolio {
-    margin: 0px;
+div.section {
+    display: flex;
     padding-top: 60px;
-    
-    background: var(--bg-color);
+    padding-bottom: 47px;
 }
-
-.foo-box{
-    display: flex;
-    margin: 0 var(--outer-margin) 0 var(--outer-margin);
-}
-
-.foo{
-    display: flex;
-    flex-direction: column;
-}
-
 
 .logo2 {
-    padding-bottom: 9px;
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
 
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -54,7 +36,6 @@
     line-height: 24px;
 
     letter-spacing: 0.03em;
-
     color: var(--white-color);
 }
 
@@ -70,10 +51,7 @@
     ;
 }
 
-.social-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+aside.social-links {
     padding-left: 70px;
 
 }
@@ -91,27 +69,29 @@
     color: var(--white-color);
 }
 
-.social-box {
-    list-style: none;
+.social-ulist {
     display: flex;
-    margin: 0px;
-    padding: 0px;
+    list-style: none;
     gap: 10px;
 }
 
-.social-list {
-    border-radius: 50%;
-    width: 44px;
+.elipse{
     height: 44px;
-    background: #ffffff1a;
+    width: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;    
 }
 
-.social-list:hover,
-.social-list:focus {
+.elipse:hover,
+.elipse:focus {
     background-color: var(--highlight-color);
     cursor: pointer;
+} 
+
+.social-icons{
+    position: relative;
+    top: 25%;
+    left: 25%;
+
 }
 
-.social-icons {
-
-}
