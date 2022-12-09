@@ -1,118 +1,111 @@
-
-
 /*header*/
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 0;
 }
 
-header>nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 80px;
+header > nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 80px;
 }
 
 /* WebStudio */
 .logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
 
-    letter-spacing: 0.03em;
-    text-decoration: none;
+	letter-spacing: 0.03em;
+	text-decoration: none;
 
-    color: var(--highlight-color);
+	color: var(--highlight-color);
 }
 
 /* Ul */
 .nav-links {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px 80px;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 5px 80px;
 
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
 }
 
-li>a{
-    color: var(--grey-color);
+li > a {
+	color: var(--grey-color);
 }
 
-li>a:hover {
-    color: var(--highlight-color);
+li > a:hover {
+	color: var(--highlight-color);
 }
 
 aside.contact-ribbon {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+    
 }
 
 /* info@devstudio.com */
 .ribbon-contact {
-    font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-        color: var(--grey-color);
-        text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+
+	color: var(--grey-color);
+	text-decoration: none;
 }
 
-.ribbon-contact::before{
-    content: url("../images/envelope.jpg");
-    display: inline;
-    width: 15px;
-    height: 15px;
-    margin-right: 10px;
-
+.icon-envelope {
+	width: 15px;
+	height: 15px;
+    fill: var(--grey-color);
 }
 
-.ribbon-contact:hover {
-    color: var(--highlight-color);
+.ribbon-contact:hover,
+.icon-envelope:hover{
+	color: var(--highlight-color);
+    fill: var(--highlight-color);
 }
 
 /* +52 55 5529 6000 */
 
 .ribbon-contact2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
 
-    color: var(--grey-color);
-    text-decoration: none;
+	color: var(--grey-color);
+	text-decoration: none;
 }
 
-.ribbon-contact2::before{
-content: url("../images/phone.jpg");
-display: inline;
-margin-right: 10px;
-margin-top: -2px;
+.icon-phone {
+    fill: var(--grey-color);
+	width: 15px;
+	height: 15px;
 }
 
-.phone {
-    position: absolute;
-    left: 79%;
-    top: 32px;
-}
-
-.ribbon-contact2:hover {
-    color: var(--highlight-color);
+.ribbon-contact2:hover,
+.icon-phone:hover {
+    fill: var(--highlight-color);
+	color: var(--highlight-color);
 }

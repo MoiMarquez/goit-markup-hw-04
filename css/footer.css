@@ -53,7 +53,6 @@ div.section {
 
 aside.social-links {
     padding-left: 70px;
-
 }
 
 .find-us {
@@ -69,29 +68,64 @@ aside.social-links {
     color: var(--white-color);
 }
 
-.social-ulist {
+.social-ulist-footer {
     display: flex;
     list-style: none;
     gap: 10px;
+    margin-left: 0px;
 }
 
-.elipse{
+.elipse-footer{
+    position: relative;
     height: 44px;
     width: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;    
 }
 
-.elipse:hover,
-.elipse:focus {
+.elipse-footer:hover,
+.elipse-footer:focus {
     background-color: var(--highlight-color);
     cursor: pointer;
 } 
 
-.social-icons{
-    position: relative;
+aside ul li > .icon-ig{
+    position: absolute;
     top: 25%;
     left: 25%;
-
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
 }
+
+
+aside ul li > .icon-twitter{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-color);
+}
+
+
+aside ul li > .icon-fb{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-color);
+}
+
+
+aside ul li > .icon-linkedin{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-color);
+}
+
 
