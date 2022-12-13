@@ -48,7 +48,8 @@ li > a {
 	color: var(--grey-color);
 }
 
-li > a:hover {
+li > a:hover,
+li > a:focus {
 	color: var(--highlight-color);
 }
 
@@ -80,7 +81,9 @@ aside.contact-ribbon {
 }
 
 .ribbon-contact:hover,
-.icon-envelope:hover{
+.icon-envelope:hover,
+.ribbon-contact:focus,
+.icon-envelope:focus{
 	color: var(--highlight-color);
     fill: var(--highlight-color);
 }
@@ -105,7 +108,9 @@ aside.contact-ribbon {
 }
 
 .ribbon-contact2:hover,
-.icon-phone:hover {
+.icon-phone:hover,
+.ribbon-contact2:focus,
+.icon-phone:focus {
     fill: var(--highlight-color);
 	color: var(--highlight-color);
 }
