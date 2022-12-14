@@ -57,7 +57,7 @@ section.background {
         0deg,
     rgba(47,48,58,0.4),
     rgba(47,48,58,0.4)),
-    url("/images/bg_img.jpg");
+    url("../images/bg.jpg");
 	background-size: cover;
 }
 
