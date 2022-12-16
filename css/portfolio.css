@@ -53,16 +53,18 @@ ul.grid-box>li {
     border: 1px solid #EEEEEE;
 }
 
-ul.grid-box>li:hover{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+ul.grid-box>li:hover,
+ul.grid-box>li:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-
+        1px 4px 6px rgba(0, 0, 0, 0.16);        
 }
+
 
 ul.grid-box>li h3 {
     text-align: left;   
     text-decoration: none;
+    width: 370px;
     padding: 20px 24px 4px 24px;
     
     font-style: normal;
@@ -78,6 +80,7 @@ ul.grid-box>li h3 {
 ul.grid-box>li p {
     text-align: left;
     text-decoration: none;
+    width: 370px;
     padding: 0px 24px 20px 24px;
 
     font-style: normal;
